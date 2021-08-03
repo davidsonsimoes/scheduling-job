@@ -6,7 +6,7 @@
     "build": "ts-engine build --node-app",
     "lint": "ts-engine lint",
     "start": "ts-engine start",
-    "test": "ts-engine test",
+    "test": "jest --no-cache --watchAll",
     "typecheck": "ts-engine typecheck"
   },
   "dependencies": {

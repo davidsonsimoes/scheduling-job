@@ -1,4 +1,4 @@
-import { JobsModel } from '@/domain/models'
+import { JobsModel } from '../models'
 
 export interface LoadJobs {
   loadAll: () => Promise<Array<LoadJobs.Result>>
