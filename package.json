@@ -1,0 +1,32 @@
+{
+  "name": "scheduling-job",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "tse run src/presentation/index.ts",
+    "test": "jest --no-cache --watchAll",
+    "typecheck": "ts-engine typecheck"
+  },
+  "dependencies": {
+    "@ts-engine/runtime": "^1.11.0",
+    "date-fns": "^2.23.0",
+    "joi": "^17.4.2"
+  },
+  "devDependencies": {
+    "@ts-engine/cli": "^2.0.0",
+    "@types/jest": "^26.0.24",
+    "@types/node": "^14.17.7",
+    "@typescript-eslint/eslint-plugin": "^4.29.0",
+    "@typescript-eslint/parser": "^4.29.0",
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-import": "^2.23.4",
+    "eslint-plugin-import-helpers": "^1.1.0",
+    "eslint-plugin-prettier": "^3.4.0",
+    "jest": "^27.0.6",
+    "prettier": "^2.3.2",
+    "ts-jest": "^27.0.4",
+    "typescript": "^4.3.5"
+  }
+}
