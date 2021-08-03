@@ -3,9 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "build": "ts-engine build --node-app",
-    "lint": "ts-engine lint",
-    "start": "ts-engine start",
+    "start": "tse run src/presentation/index.ts",
     "test": "jest --no-cache --watchAll",
     "typecheck": "ts-engine typecheck"
   },
